@@ -45,7 +45,11 @@ section{
 .biography{
     background-image: url("personal-website/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: left;
+}
+.biography img{
+    position: relative;
+    bottom: 50px;
+    height: 100%;
 }
 .my-work{
     background-image: url("personal-website/latest-work-bg.png");
@@ -61,8 +65,9 @@ section{
 .footer{
     background-image: url("personal-website/footer-bg.png");
     background-repeat: no-repeat;
-    /*background-position: right;*/
     background-position: center;
+    position: relative;
+    bottom: 100px;
 }
 
 #center{
@@ -80,8 +85,8 @@ section{
 }
 .message{
     background-color: tomato;
-    position:static;
-    top: 100px;
+    position:relative;
+    bottom: 200px;
     border-radius: 20px;
     width: 60%;
     float: left;
@@ -92,4 +97,7 @@ section{
 }
 #copy-right{
     color: gray;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
 }
